@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio loader test</title>
+</head>
+<script src="https://jspm.io/system@0.19.1.js"></script>
+<script>
+	System.config({
+      map: {
+        audio: './audio.js'
+      }
+    });
+  System.import('./beep.mp3!audio').then(function(beep) {
+  	beep.play();
+  });
+</script>
+<body>
+
+</body>
+</html>

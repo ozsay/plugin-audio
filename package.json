@@ -1,6 +1,6 @@
 {
   "name": "systemjs-plugin-audio",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An audio plugin for systemjs loader",
   "main": "audio",
   "repository": {
